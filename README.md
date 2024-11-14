@@ -1,2 +1,1 @@
-# goit-markup-hw-02
-ДЗ по CSS
+# goit-markup-hw-01
