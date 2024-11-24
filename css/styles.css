@@ -38,13 +38,13 @@ ul {
   line-height: 1.5;
 }
 
-.navigation-list-stidio {
+.navigation-list-nav {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.navigation-list-stidio:hover,
-.navigation-list-stidio:focus {
+.navigation-list-nav:hover,
+.navigation-list-nav:focus {
   color: #404bbf;
 }
 
@@ -55,22 +55,28 @@ ul {
   font-style: normal;
 }
 
-.navigation-adress-mail {
+.navigation-adress-cont {
   color: #434455;
   letter-spacing: 0.02em;
 }
 
-.navigation-adress-mail:hover,
-.navigation-adress-mail:focus {
+.navigation-adress-cont:hover,
+.navigation-adress-cont:focus {
   color: #404bbf;
 }
 
 /*============Main============*/
 /*======Hero======*/
+.main {
+  background-color: #2e2f42;
+}
+
 .main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 
@@ -78,8 +84,15 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
   cursor: pointer;
+}
+
+.button-orderservice:hover,
+.button-orderservice:focus {
+  background-color: #404bbf;
 }
 
 /*======Заголовки h3 на всьому сайті======*/
